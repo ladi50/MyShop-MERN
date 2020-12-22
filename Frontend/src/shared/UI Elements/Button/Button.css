@@ -1,0 +1,60 @@
+.button {
+  padding: 8px 14px;
+  margin: 14px 6px 6px 6px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 2px 2px 7px black;
+}
+
+.normalButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.deleteButton {
+  background-color: rgb(170, 12, 12);
+  text-shadow:  1px 2px 0 black, -2px 0 0 black;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  padding: 8px 36px;
+}
+
+.deleteButton:hover {
+  background-color: rgb(189, 11, 11);
+}
+
+.orderButton {
+  background-color: rgb(20, 173, 166);
+  color: black;
+}
+
+.orderButton:hover {
+  background-color:rgb(21, 216, 206);
+}
+
+.mediumButton {
+  padding: 9px 17px;
+  font-size: 1rem;
+}
+
+.largeButton {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+}
+
+.editButton {
+  background-color: rgb(15, 110, 6);
+  text-shadow:  1px 2px 0 black, -2px 0 0 black;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.editButton:hover {
+  background-color: rgb(18, 134, 8);
+}

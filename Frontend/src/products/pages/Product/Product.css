@@ -1,0 +1,27 @@
+.product-page {
+  text-align: center;
+}
+
+h2.product-page__title {
+  font-size: 2rem;
+}
+
+h3.product-page__title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+img.product-page__image {
+  border-radius: 14px;
+}
+
+.product-page__description,
+.product-page__price {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+footer.product-page__footer {
+  margin: 20px;
+  transform: translateY(18%);
+}

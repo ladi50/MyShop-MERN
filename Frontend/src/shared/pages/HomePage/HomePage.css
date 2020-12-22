@@ -1,0 +1,64 @@
+header.homepage-header {
+  box-shadow: 3px 3px 7px black;
+  width: 55%;
+  margin:0 auto 0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  transform: translateY(25%);
+}
+
+header.homepage-header * {
+  margin: 15px;
+}
+
+h2.homepage-title {
+  font-size: 2rem;
+}
+
+p.homepage-description,
+h3.homepage-description {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  header.homepage-header {
+    width: 70%;
+  }
+}
+
+@media (max-width: 770px) {
+  header.homepage-header {
+    width: 75%;
+  }
+}
+
+@media (max-width: 680px) {
+  header.homepage-header {
+    width: 85%;
+  }
+  
+  h2.homepage-title {
+    font-size: 1.6rem;
+  }
+  
+  p.homepage-description,
+  h3.homepage-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header.homepage-header {
+    width: 85%;
+  }
+  
+  h2.homepage-title {
+    font-size: 1.3rem;
+  }
+  
+  p.homepage-description,
+  h3.homepage-description {
+    font-size: 0.9rem;
+  }
+}

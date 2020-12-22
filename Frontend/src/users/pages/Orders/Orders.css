@@ -1,0 +1,101 @@
+div.orders-page-div {
+  margin: 3% auto 0;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  overflow: hidden;
+  width: 50%;
+}
+
+div.order-div {
+  box-shadow: 2px 2px 6px black;
+  margin: 20px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+p.order-number {
+  display: inline-block;
+  padding-left: 3%;
+}
+
+span.span-open-order {
+  float: right;
+  cursor: pointer;
+  margin-right: 6%;
+  line-height: 4.2;
+}
+
+span.span-open-order i img:hover,
+span.span-open-order i img:active {
+  content: url("./arrow-down.png");
+}
+
+div.orders-page-div ul {
+  width: 90%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+li.order-listItem {
+  width: 33.3%;
+}
+
+@media (max-width: 1220px) {
+  div.orders-page-div {
+    width: 70%
+  }
+}
+
+@media (max-width: 920px) {
+  div.orders-page-div {
+    width: 80%
+  }
+}
+
+@media (max-width: 780px) {
+  div.orders-page-div {
+    width: 90%
+  }
+}
+
+@media (max-width: 650px) {
+  div.orders-page-div {
+    font-size: 1.2rem;
+  }
+
+  span.span-open-order i img {
+    width: 29px;
+    height: 29px;
+  }
+}
+
+@media (max-width: 570px) {
+  div.orders-page-div {
+    font-size: 1rem;
+  }
+
+  span.span-open-order i img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@media (max-width: 460px) {
+  div.orders-page-div {
+    font-size: 0.8rem;
+    padding: 3px;
+  }
+
+  span.span-open-order {
+    margin-right: 2%;
+  }
+
+  span.span-open-order i img {
+    width: 22px;
+    height: 22px;
+  }
+}

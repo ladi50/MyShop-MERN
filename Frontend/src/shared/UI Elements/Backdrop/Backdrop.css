@@ -1,0 +1,18 @@
+.backdrop {
+  background-color: rgba(29, 29, 29, 0.7);
+  width: 100%;
+  height: 200%;
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+
+@media (min-width: 901px) {
+  .backdrop {
+    display: none;
+  }
+}

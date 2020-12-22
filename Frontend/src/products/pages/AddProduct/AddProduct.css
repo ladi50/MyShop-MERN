@@ -1,0 +1,6 @@
+.form__product-image {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid gray;
+  border-radius: 8px;
+}

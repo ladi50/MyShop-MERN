@@ -1,0 +1,30 @@
+li.product-list-item {
+  list-style: none;
+  text-align: center;
+  margin: 2.2rem 0 1.4rem;
+  float: left;
+  width: 50%;
+}
+
+.list-item-title h2 {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.list-item_image img {
+  border: 2px solid rgb(20, 173, 166);
+  border-radius: 6px;
+}
+
+.list-item-content p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+@media (max-width: 700px) {
+  li.product-list-item {
+    width: 100%;
+  }
+}

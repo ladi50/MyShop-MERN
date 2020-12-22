@@ -1,0 +1,74 @@
+.form {
+  position: sticky;
+  width: 20%;
+  padding: 20px 20px 0;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 3.5rem auto;
+  padding: 30px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.form-title {
+  font-size: 1.8rem;
+  margin-bottom: 14%;
+  text-decoration-line: underline;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1300px) {
+  .form {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .form {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .form {
+    width: 70%;
+  }
+}
+
+span.error-dash {
+  margin-right: 10px;
+}
+
+div.form-errors-div {
+  margin: 0 auto 20px;
+  text-align: left;
+  width: 110%;
+  word-wrap: break-word;
+  display: block;
+}
+
+p.form-error-message {
+  color: red;
+  display: flex;
+  text-align: left;
+}
+
+textarea.textarea-error {
+  border: 3px solid rgb(233, 19, 19);
+}

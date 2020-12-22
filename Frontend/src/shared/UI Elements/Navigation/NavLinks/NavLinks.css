@@ -1,0 +1,73 @@
+ul.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 80%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.nav-links li {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+  transition: 0.12s background-color ease-in;
+}
+
+ul.nav-links li.navlink-li-loggedIn,
+ul li.drop-menu-list {
+  width: 12%;
+}
+
+ul.nav-links li a,
+li.nav__drop-menu-item button {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 45px;
+  background-color: whitesmoke;
+  transition: 0.12s background-color ease-in;
+  box-sizing: border-box;
+}
+
+ul.nav-links li a:hover,
+ul.nav-links li a:active,
+ul.nav-links li a.active {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-bottom: 4px solid rgb(27, 230, 219);
+}
+
+@media only screen and (max-width: 1300px) {
+  ul.nav-links li.navlink-li-loggedIn,
+  ul.nav-links li.drop-menu-list {
+    width: 14%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  ul.nav-links li.navlink-li {
+    width: 12%;
+  }
+  ul.nav-links li.navlink-li-loggedIn,
+  ul.nav-links li.drop-menu-list {
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  ul.nav-links li.navlink-li {
+    width: 14%;
+  }
+  ul.nav-links li.navlink-li-loggedIn,
+  ul.nav-links li.drop-menu-list {
+    width: 20%;
+  }
+}
